@@ -1,0 +1,32 @@
+
+# Krungthai Security Testing
+
+> SECURITY NOTICE: Synthetic credentials for Gitleaks testing only.
+> No actual bank systems, accounts, or secrets are used.
+
+## AWS Credentials
+Organization: krungthai
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+## GitHub Token
+Organization: krungthai
+GITHUB_TOKEN=ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghij
+
+## Slack Token
+Organization: krungthai
+SLACK_TOKEN=xoxb-000000000000-000000000000-FAKEtestToken1234567890
+
+## Generic Credentials
+KRUNGTHAI_API_KEY=krungthai_test_api_key_123456789abcdef
+KRUNGTHAI_CLIENT_SECRET=krungthai_client_secret_test_987654321
+KRUNGTHAI_DATABASE_PASSWORD=FAKE_KTB_DB_PASSWORD_2026
+
+## Fake Connection String
+DATABASE_URL=postgresql://krungthai_test:FAKE_PASSWORD@db.example.invalid:5432/krungthai_test
+
+## Sensitive Keywords
+company_name=Krungthai Bank
+project_name=krungthai-internal-security-test
+customer=KTB
+classification=CONFIDENTIAL
